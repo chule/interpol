@@ -1,0 +1,71 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 1em auto 4em auto;
+  position: relative;
+  tab-size: 2;  
+  text-align: center;
+}
+
+.svg {
+  width: 960px; 
+  margin: 0 auto;
+}
+
+.key path {
+  display: none;
+}
+
+.key line {
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.tick text {
+  font-size: 10px;
+}
+
+
+.land {
+  fill: #ccc;
+	fill-opacity: 0.8;
+	stroke: #3b3b3b;
+	stroke-width: 0.3px;
+}
+
+.graticule {
+  fill: none;
+  stroke: #fff;    
+/*    stroke: #777;*/
+	stroke-width: 0.5px;
+}
+
+.subunit-boundary {
+  fill: none;
+  stroke: #fff;
+  /*stroke-dasharray: 2,2;
+  stroke-linejoin: round;*/
+}
+
+.subunit { 
+  /*fill: #ddc; */
+  cursor: pointer; 
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    display: inline;
+    padding: 6px;
+    font: 13px sans-serif;
+    background-color: #000;
+    border: 0px;
+    border-radius: 2px;
+    pointer-events: none;
+    color: #fff;
+}
+
+footer {
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: center;
+}
