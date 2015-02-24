@@ -21,9 +21,13 @@ body {
 }
 
 .tick text {
-  font-size: 10px;
+  font-size: 9px;
 }
 
+.caption {
+  font-size: 13px;
+  font-variant: Uppercase;
+}
 
 .land {
   fill: #ccc;

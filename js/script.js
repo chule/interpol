@@ -211,7 +211,7 @@ function ready(error, data, data1) {
 	  g.call(xAxis).append("text")
 	      .attr("class", "caption")
 	      .attr("y", -6)
-	      .text("Legend (wanted by country)");  
+	      .text("LEGEND (wanted by country)");  
 	  // key end    	      
 
 };
